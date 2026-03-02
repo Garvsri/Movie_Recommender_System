@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import ast
 API_KEY = "dc6d44583556df23bd932ce476175a91"
 
 import requests
