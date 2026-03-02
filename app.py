@@ -52,8 +52,7 @@ def recommend(movie):
 
     for i in movies_list:
         movie_row = movies.iloc[i[0]]
-        movie_id = movie_row['id']
-
+        movie_id = movie_row['movie_id']
         poster = fetch_poster(movie_id)
         if poster is not None:
             recommended_movies.append(movie_row.title)
@@ -71,6 +70,7 @@ def load_data_and_similarity():
 
     movies = movies.merge(credits, on="title")
     movies = movies[["movie_id", "title", "overview", "genres", "keywords", "cast", "crew"]]
+    
     movies.dropna(inplace=True)
 
     def convert(obj):
