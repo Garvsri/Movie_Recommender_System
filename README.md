@@ -6,8 +6,8 @@ It recommends movies similar to the one selected by the user and displays their 
 ---
 
 ## 🚀 Live Demo
-👉 https://movie-recommender-system-garvsri.streamlit.app  
-*(Replace with your actual Streamlit link after deployment)*
+👉 https://movierecommendersystem-mhnsae4aepffwmqdlhrik9.streamlit.app/ 
+
 
 ---
 
